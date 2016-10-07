@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% include JB/setup %}
+
+{% if page.url == "/" %}
+	{% include themes/bootstrap/home.html %}
+{% else %}
+	{% include themes/bootstrap/page.html %}
+{% endif %}
+

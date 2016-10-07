@@ -1,0 +1,11 @@
+---
+theme :
+  name : bootstrap
+---
+{% include JB/setup %}
+
+{% if page.url == "/404" %}
+	{% include themes/bootstrap/404.html %}
+{% else %}
+	{% include themes/bootstrap/default.html %}
+{% endif %}
