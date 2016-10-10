@@ -4,7 +4,7 @@
      data-top-bottom="transform:translateY(0)">
 
     <div class="parallax-image"
-     style="background-image:url('{{ ASSET_PATH }}img/bay.jpg')"
+     style="background-image:url('{{ ASSET_PATH }}bootstrap/img/bay.jpg')"
      data-anchor-target="#page-intro"
      data-bottom-top="transform: translateY(-80%);"
      data-top-bottom="transform: translateY(80%);" >
@@ -14,7 +14,7 @@
 
 <div id="skrollr-body">
 
-    <div id="page-intro" class="gap" style="background-image:url('{{ ASSET_PATH }}img/bay.jpg'); ">
+    <div id="page-intro" class="gap" style="background-image:url('{{ ASSET_PATH }}bootstrap/img/bay.jpg'); ">
         <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}} {{ page.date | date_to_long_string }}</small>{% endif %}</h1>
         <!-- <span>{{ page.date | date_to_long_string }}</span> -->
     </div>
@@ -72,8 +72,8 @@
     </div>
 </div>
 
-<script src="{{ ASSET_PATH }}js/skrollr.min.js"></script>
-<script src="{{ ASSET_PATH }}js/jquery.min.js"></script>
+<script src="{{ ASSET_PATH }}bootstrap/js/skrollr.min.js"></script>
+<script src="{{ ASSET_PATH }}bootstrap/js/jquery.min.js"></script>
 
 <script>
     skrollr.init();
