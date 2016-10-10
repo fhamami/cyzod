@@ -39,6 +39,11 @@ Secara singkat bisa dikatakan bahwa HTTP/1.1 = Basic dan HTTP/2 = Multiplexing. 
 - Memberikan kontrol lebih besar kepada developer aplikasi untuk mengatur prioritas urutan object yang mau di-load lebih dulu.
 - Lebih canggih dan cepat dibanding protokol SPDY sebelumnya. Google akan menghapus SPDY support dari browser Chrome mulai awal tahun 2016.
 
+Riset potential benefit yang dilakukan oleh IDG Enterprise Research mengatakan bahwa HTTP 2.0 akan lebih banyak menguntungkan dari berbagai sisi.
+
+![](http://i.imgur.com/CMOp6zO.png)
+
+
 > SPDY adalah protokol yang awalnya dikembangkan oleh Google untuk memperbaiki kelemahan di HTTP/1.1.
 
 Untuk mengetahui hosting yang digunakan sudah support dengan HTTP/2, bisa menggunakan tool yang disediakan oleh [keycdn](https://tools.keycdn.com/http2-test).
