@@ -5,17 +5,18 @@ tagline: "Progressive Web Apps"
 tags : [Web]
 ---
 
-[Progressive Web Apps](https://developers.google.com/web/progressive-web-apps) when I hear this few mount ago, I try to seek every pople who talking about it, I just thing I litle bit late to collect information about it, but no problem, After that I follow google io 2016, there are lot of information about it. then I make note here.
+[Progressive Web Apps](https://developers.google.com/web/progressive-web-apps) when I heard this a few months ago, I try to seek every people who talking about it, Just thing, I little bit late to collect information about it, but no problem. After that I follow google io 2016, there are lot of information about it. Then I make note here.
 
 Progressive Web Apps are experiences that combine the best of the web and the best of apps. They are useful to users from the very first visit in a browser tab, no install required. As the user progressively builds a relationship with the app over time, it becomes more and more powerful. It loads quickly, even on flaky networks, sends relevant push notifications, has an icon on the home screen, and loads as a top-level, full screen experience.
 
-For this time Mobile App is very powerful almost every new startup begin with mobile app. But I thing PWA will make something different on few years later because it's more effective. Why I said it's more effective? because we build App for more large segment, for the people who likes mobile app we serving Web App with PWA who had almost same fungcional.
+For this time Mobile App is very powerful almost every new startup begin with mobile app. But I think PWA will make something different for a few more years because it's more effective. Why I said it's more effective? because we build App for more large segment, for the people who likes mobile app we serving Web App with PWA who had almost same functional.
 
-Let me drove you to in my imagination. When we try to adopt new tech or sys or app or whatever you put label on it, we need to download the content first before we can use those app. How many bites we should download it? sometime we "as end-user" doens't need and doesn't know all features on those app. Sometime we just need some feature not all.
+Let me drove you to in my imagination. When we try to adopt new app, we need to download the content first before we can use those app. How many bytes we should download it? sometime we "as end-user" doesn't need and doesn't know all features on those app. Sometime we just need some feature not all.
 
-For example I need app with time management feature just for my self, because I had different app from my company for manage time as worker, but the app do I use for my self have a lot of feature did I doesn't use. It make me lost lot storage.
+For example by some reason I need App with time management feature just for my self, because I have a different App from my company to arrange a time as workers,
+but the App do I use for myself have a lot of features I do not need. It make me lost lot storages.
 
-Ok done, what if we use PWA we just downloaded what we feature of we need, and will removed when we doen't need again in some period. It make effective storage. That why I thing PWA will beat most of native app.
+Ok done, what if we use PWA we just downloaded what we feature of we need, and will removed when we doesn't need again in some period. It make effective storage. That why I thing PWA will beat most of native app.
 
 > A Progressive Web App uses modern web capabilities to deliver an app-like user experience. They evolve from pages in browser tabs to immersive, top-level apps, maintaining the web's low friction at every moment.
 
