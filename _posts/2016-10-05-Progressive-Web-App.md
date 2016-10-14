@@ -11,7 +11,7 @@ Progressive Web Apps are experiences that combine the best of the web and the be
 
 For this time Mobile App is very powerful almost every new startup begin with mobile app. But I think PWA will make something different for a few more years because it's more effective. Why I said it's more effective? because we build App for more large segment, for the people who likes mobile app we serving Web App with PWA who had almost same functional.
 
-Let me drove you to in my imagination. When we try to adopt new app, we need to download the content first before we can use those app. How many bytes we should download it? sometime we "as end-user" doesn't need and doesn't know all features on those app. Sometime we just need some feature not all.
+Let me drove you to in my imagination, but first thing that you should know that its still subjective I still try to figure it how exactly pwa work correctly, so please pardon me if i wrong. When we try to adopt new app, we need to download the content first before we can use those app. How many bytes we should download it? sometime we "as end-user" doesn't need and doesn't know all features on those app. Sometime we just need some feature not all.
 
 For example by some reason I need App with time management feature just for my self, because I have a different App from my company to arrange a time as workers,
 but the App do I use for myself have a lot of features I do not need. It make me lost lot storages.
