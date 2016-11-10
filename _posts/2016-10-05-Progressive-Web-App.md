@@ -16,11 +16,11 @@ Let me drove you to in my imagination, but first thing that you should know that
 For example by some reason I need App with time management feature just for my self, because I have a different App from my company to arrange a time as workers,
 but the App do I use for myself have a lot of features I do not need. It make me lost lot storages.
 
-Ok done, what if we use PWA we just downloaded what we feature of we need, and will removed when we doesn't need again in some period. It make effective storage. That why I thing PWA will beat most of native app.
+Ok done, what if we use PWA we just downloaded what we feature of we need, and will removed when we doesn't need again in some period. It make effective storage. That why I thing PWA will beat most of native app. Then what about hybrid? hybrid app is combine between native and web. PWA is completely web but user can have experience like using native app. 
 
 > A Progressive Web App uses modern web capabilities to deliver an app-like user experience. They evolve from pages in browser tabs to immersive, top-level apps, maintaining the web's low friction at every moment.
 
-It's important to remember that Progressive Web Apps work everywhere but are supercharged in modern browsers. Progressive enhancement is a backbone of the model.
+It's important to remember that Progressive Web Apps work everywhere but are supercharged in modern browsers. Progressive enhancement is a backbone of the model. (PWA.rocks)[PWA.rocks] got list of many web use progressive web apps.
 
 ### What is a Progressive Web App?
 
@@ -38,6 +38,38 @@ A Progressive Web Apps is:
 - **Linkable** - meaning they’re zero-friction, zero-install, and easy to share. The social [power of URLs ](http://www.theatlantic.com/technology/archive/2012/10/dark-social-we-have-the-whole-history-of-the-web-wrong/263523/)matters.
 
 This codelab will walk you through creating your own Progressive Web App, including the design considerations, as well as implementation details to ensure that your app meets the key principles of a Progressive Web App.
+
+#### Instant Loading
+
+Tech behind PWA to have capabilities to work offline with controlling asset and store them in cache and make faster load on low-quality network is service worker. 
+
+(service-worker)[https://chromplex.com/wp-content/uploads/2016/07/service-worker.png]
+
+to check what version already supported service worker you can check in (jakearchibald)[https://jakearchibald.github.io/isserviceworkerready/]
+
+#### Add to Homescreen
+
+Add to Homescreen will make web look native with **manifest** has icon setting, app name, resolution of icon shortcut, and setting view to remove address bar then make like native app.
+
+(add-to-home-screen-pwa)[https://chromplex.com/wp-content/uploads/2016/07/add-to-home-screen-pwa.gif]
+
+#### Notifikasi
+
+After chrome version 42, google give support to browser to have capabilities sending notifications like native apps. But there some is problem about notifications API, because every browser has different notifications API. This make developer should code to every single browser. But any rumor about Apple, Google, Mozilla and Microsoft will compromise to make standard for this API. To make developer just create single code to work in every browsers.
+
+(push-notification)[https://chromplex.com/wp-content/uploads/2016/07/push-notification.gif]
+
+#### Fast
+
+User who use web hope web page will more interactive, smooth, fast scroll and smooth animations. Accessing web with desktop and mobile is completely different. Hopely in mobile web will more light and not to download many asset. Goole has launch (PageSpeed Insight)[https://developers.google.com/speed/pagespeed/insights/] tool to test whether web is good for mobile user.
+
+#### Secure
+
+Requrement of service worker is web should use HTTPS protokol. HTTPS will encrypt session data with SSL (Secure Socket layer) or protokol TLS (Transport Layer Security). So data between web and user has secured. If communication unprotected attacker can be easy to steal or abusing data like cookie, script and all can be exploited. For instance some ISP ijected ads on every web page has we acess, it's really bad for UX.
+
+#### Responsive
+
+Google absolutely support responsive web. In this era many user moved from dekstop to mobile. Even many people firstly know internet access from mobile.
 
 ### What we should learn
 
@@ -183,3 +215,5 @@ https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0
 https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
 
 https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
+
+https://chromplex.com/progressive-web-apps/
